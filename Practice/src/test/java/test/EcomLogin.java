@@ -26,11 +26,7 @@ public class EcomLogin {
 		SelectACountry.selectByValue("India");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		driver.findElement(By.xpath("//div[@id='message']")).getText();
-		
-		
-		
-	}
 
-	
+	}
 
 }
